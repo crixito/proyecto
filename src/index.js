@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './pag1/Header';
+import Palabras from './pag1/Palabras';
+import Pruebas from './pag2/Pruebas';
+import Recomendaciones from './pag3/Recomendaciones';
+import Logros from './pag4/Logros';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={ <Palabras />} />
+        <Route path="/pruebas" element={ <Pruebas />} />
+        <Route path="/recomendaciones" element={ <Recomendaciones />} />
+        <Route path="/logros" element={ <Logros />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

@@ -1,0 +1,29 @@
+/* h1{
+    color: #f8f2f2;
+    margin: 50px;    
+} */
+
+.contenedor-recomendaciones{
+    display: flex; /* Utilizamos flexbox para organizar las logro-card */
+    flex-wrap: wrap; /* Permitir que las logro-card se envuelvan si el contenedor es demasiado pequeño */
+    justify-content: center; /* Centra las logro-card horizontalmente */    
+}
+
+.recomendacion-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+    height: 130px;    
+    overflow: auto;
+}
+
+.recomendacion-card h2 {
+    color: #156c8e;
+}
+
+.recomendacion-card p {
+    margin-bottom: 20px;  
+}

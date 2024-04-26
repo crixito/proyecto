@@ -1,0 +1,40 @@
+h1{
+    color: #f8f2f2;
+    margin: 50px;
+}
+
+.contenedor-logros {    
+    display: flex; /* Utilizamos flexbox para organizar las logro-card */
+    flex-wrap: wrap; /* Permitir que las logro-card se envuelvan si el contenedor es demasiado pequeño */
+    justify-content: center; /* Centra las logro-card horizontalmente */    
+}
+
+.logro-card {    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px; 
+    width: 300px;
+    height: 120px;
+    transition: transform 0.3s ease;
+    overflow: auto;
+}
+
+.logro-card:hover {
+    transform: scale(1.05);
+}
+
+.logro-card h2 {    
+    color: #156c8e;
+    text-align: center;
+    /* font-size: 1.2em; */
+    margin-bottom: 10px;  
+}
+
+.logro-card p {
+    text-align: center;
+    /* font-size: 0.9em; */
+    color: #555;
+    margin-bottom: 20px;    
+}

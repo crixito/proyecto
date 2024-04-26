@@ -1,0 +1,94 @@
+
+nav img{
+  width: 44px; /* ajusta el tamaño según tus necesidades */
+  height: auto; /* para mantener la proporción de la imagen */    
+}
+
+nav{
+  display: flex;
+}
+
+.menu_lateral {    
+  display: flex;    
+  flex-wrap: wrap;    
+  justify-content: center; 
+  width: 100%;         
+}
+
+/* Estilos para los botones de navegación */
+nav a{    
+  flex: 1; /* Hace que las cajas ocupen partes iguales del contenedor */
+  text-align: center;
+  padding: 10px 20px; /* Ajusta el espacio interno según tus necesidades */
+  margin: 0 1%;       
+  text-decoration: none;
+  font-size: larger;
+  color: #fff;    
+  border: 1px solid #007bff; 
+  border-radius: 5px; /* Esquinas redondeadas */
+  transition: background-color 0.3s ease; /* Efecto de transición para el cambio de color de fondo */    
+}
+
+/* Estilos cuando se pasa el mouse sobre los botones */
+nav a:hover{
+  background-color: #134d67; /* Nuevo color de fondo al hacer hover */
+  border-color: #134d67; /* Nuevo color del borde al hacer hover */
+}
+
+.abrir{
+  display: none;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+  font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la fuente que prefieras */
+  font-size: 48px; /* Tamaño del texto */
+  color: #fff; /* Color del texto */
+  text-align: center; /* Centra el texto horizontalmente */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto para mejorar la legibilidad */
+}
+
+
+
+/* @media screen and (max-width: 700px){
+  nav{        
+      justify-content: space-between;  
+  } 
+  
+  .abrir{
+      display: flex;
+      font-size: 28.5px;
+      padding: 3px 20px;
+      color: #ffffff;
+      cursor: pointer;        
+  } 
+  h1{
+      font-size: 58px;
+  }    
+  .menu_lateral{
+      top: 80px;
+      left: 0;
+      position: fixed;
+      display: flex;
+      width: 0%;
+      transition: 0s;
+      flex-direction: column;
+      background-color: #134d67;
+      height: 100%;
+      overflow: hidden;
+  }   
+  .menu_lateral a{
+      flex: 1; 
+      text-align: center;
+      padding: 10px 20px; 
+      text-decoration: none;
+      font-size: larger;
+      border: none;
+      color: #fff;    
+      transition: background-color 0.3s ease;
+  }
+  .menu_lateral a:hover{
+      background-color: #0b3959;
+  }
+} */
+

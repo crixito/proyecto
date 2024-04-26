@@ -1,0 +1,37 @@
+.pruebas-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;    
+}
+
+.pruebas-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;    
+}
+
+.pruebas-card h2 {
+    color: #156c8e;    
+}
+
+.pruebas-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;    
+}
+
+.btn-pruebas {
+    display: block;     
+    background-color: #156c8e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pruebas:hover {
+    background-color: #134d67;
+}
